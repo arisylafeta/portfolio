@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1,
+    "name": "DocuScanner",
+    "image": "https://imgur.com/Uz1nr3i.png",
+    "description": "A desktop application utilizing Computer Vision to scan documents",
+    "tags": ["c", "opencv"],
+    "source_code": "https://github.com/arisylafeta/document-scanner.git"
+  },
+  {
+    "id": 2,
+    "name": "GPT-3",
+    "image": "https://imgur.com/I0rjU41.png",
+    "description": "A modern website for GPT-3 Project from OpenAI",
+    "tags": ["react", "node", "vercel", "material-ui"],
+    "source_code": "https://github.com/arisylafeta/gpt3.git",
+    "demo": "https://gpt3-mu.vercel.app/"
+  },
+  {
+    "id": 3,
+    "name": "TwitterSent",
+    "image": "https://imgur.com/tCxoIea.png",
+    "description": "A sentiment analysis tool that utilizes the Twitter API",
+    "tags": ["python", "tweepy", "matplotlib", "textblob"],
+    "source_code": "https://github.com/arisylafeta/Twitter-Sentiment-Analysis-Tool.git"
+  },
+  {
+    "id": 4,
+    "name": "VSCode Portfolio",
+    "image": "https://imgur.com/mKkz0iz.png",
+    "description": "A themeable and developer-centric portfolio based on VSCode",
+    "tags": ["next", "css-modules", "react", "node"],
+    "source_code": "https://github.com/arisylafeta/vscode-portfolio",
+    "demo": "http://arisylafeta.com"
+  },
+  {
+    "id": 5,
+    "name": "MemeGen",
+    "image": "https://imgur.com/vKkDibT.png",
+    "description": "A Meme Generating website for you to get creative",
+    "tags": ["react", "node", "vercel"],
+    "source_code": "https://github.com/arisylafeta/Meme-Generator---React.git",
+    "demo": "https://meme-generator-react-beta.vercel.app"
+  }
+]
