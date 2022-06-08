@@ -33,14 +33,5 @@
     "tags": ["next", "css-modules", "react", "node"],
     "source_code": "https://github.com/arisylafeta/vscode-portfolio",
     "demo": "http://arisylafeta.com"
-  },
-  {
-    "id": 5,
-    "name": "MemeGen",
-    "image": "https://imgur.com/vKkDibT.png",
-    "description": "A Meme Generating website for you to get creative",
-    "tags": ["react", "node", "vercel"],
-    "source_code": "https://github.com/arisylafeta/Meme-Generator---React.git",
-    "demo": "https://meme-generator-react-beta.vercel.app"
   }
 ]
