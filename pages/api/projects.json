@@ -23,7 +23,7 @@
     "description": "A sentiment analysis tool that utilizes the Twitter API",
     "tags": ["python", "tweepy", "matplotlib", "textblob"],
     "source_code": "https://github.com/arisylafeta/Twitter-Sentiment-Analysis-Tool.git",
-    "demo": "https://colab.research.google.com/drive/1Ez3cEYCqbdED6zZuKnAd_CPpVbwhMfY_?usp=sharing"
+    "demo": "https://share.streamlit.io/arisylafeta/twitter-sentiment-analysis-tool/main/tool.py"
   },
   {
     "id": 4,
