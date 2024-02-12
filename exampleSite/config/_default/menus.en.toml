@@ -1,38 +1,19 @@
 ############# English navigation ##############
 
 # main menu
+
+
 [[main]]
-name = "Home"
-url = ""
+name = "Data Science & AI"
+url = "categories/datascience"
 weight = 1
 
 [[main]]
-name = "About"
-url = "about/"
+name = "Finance"
+url = "categories/finance"
 weight = 2
 
 [[main]]
-name = "Contact"
-url = "contact/"
+name = "Block Chain & DAPP"
+url = "categories/blockchain"
 weight = 3
-
-
-[[main]]
-name = "Element"
-url = "element/"
-weight = 4
-
-[[main]]
-weight = 5
-name = "Pages"
-hasChildren = true
-
-[[main]]
-parent = "Pages"
-name = "Blog Details"
-url = "blog/post-1/"
-
-[[main]]
-parent = "Pages"
-name = "Category"
-url = "categories/travel"

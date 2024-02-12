@@ -1,6 +1,5 @@
 #################### default parameters ################################
-# favicon
-favicon = "images/favicon.png"
+
 # logo
 logo = "images/logo.png"
 logo_dark = "images/logo-white.png"
@@ -80,7 +79,7 @@ mastodon = "" # The URL to your profile a la https://example.com/@username
 
 ######################## sidebar widgets #########################
 [widgets]
-sidebar = ["search", "categories", "recent-post", "social"]
+sidebar = ["search", "categories"]
 
 ############################# social site ########################
 [[social]]
