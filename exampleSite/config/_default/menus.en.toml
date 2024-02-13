@@ -4,16 +4,16 @@
 
 
 [[main]]
-name = "Home"
+name = "HOME"
 url = "#"
 weight = 1
 
 [[main]]
-name = "Resume"
+name = "RESUME"
 url = "https://arisylafeta.github.io/resume/"
 weight = 2
 
 [[main]]
-name = "Contact"
+name = "CONTACT"
 url = "https://arisylafeta.github.io/resume/#contact"
 weight = 3

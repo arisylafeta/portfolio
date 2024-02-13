@@ -26,9 +26,7 @@ mainSections = ["blog"]
 netlify = true # set to false if using formspree.io
 # contact form action
 contact_form_action = "#"
-# copyright
-theme_copyright = true
-copyright = "Copyright by your company"
+
 
 # google tag manager, see https://developers.google.com/tag-manager/
 google_tag_manager = "" # example: G-XXXXXXXXXX
@@ -90,10 +88,10 @@ link = "#"
 
 [[social]]
 title = "github"
-icon = "fab fa-pinterest" # fontawesome icon pack : https://fontawesome.com/icons/
+icon = "fab fa-github" # fontawesome icon pack : https://fontawesome.com/icons/
 link = "#"
 
 [[social]]
 title = "linkedin"
-icon = "fab fa-youtube" # fontawesome icon pack : https://fontawesome.com/icons/
+icon = "fab fa-linkedin" # fontawesome icon pack : https://fontawesome.com/icons/
 link = "#"
