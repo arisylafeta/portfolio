@@ -28,7 +28,7 @@
 
   &.active {
     .nav-link {
-      color: $color-primary;
+      color: $white;
     }
   }
   &:not(last-child) {
@@ -46,7 +46,7 @@
   min-width: 12rem;
   transition: 0.3s;
   margin-left: -1rem;
-  background-color: $color-secondary;
+  background-color: $white;
   @media (min-width: 992px) {
     opacity: 0;
     visibility: hidden;
