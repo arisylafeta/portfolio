@@ -35,7 +35,7 @@ google_tag_manager = "" # example: G-XXXXXXXXXX
 
 # theme-mode
 theme_switcher = true
-theme_default = "system" # available options [light/dark/system]
+theme_default = "light" # available options [light/dark/system]
 
 # seo meta data for OpenGraph / Twitter Card
 [metadata]
@@ -82,24 +82,10 @@ mastodon = "" # The URL to your profile a la https://example.com/@username
 sidebar = ["search", "categories"]
 
 ############################# social site ########################
-[[social]]
-title = "facebook"
-icon = "fab fa-facebook" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
 
 [[social]]
 title = "twitter"
 icon = "fab fa-twitter" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
-
-[[social]]
-title = "mastodon"
-icon = "fab fa-mastodon" # fontawesome icon pack : https://fontawesome.com/icons/
-link = "#"
-
-[[social]]
-title = "instagram"
-icon = "fab fa-instagram" # fontawesome icon pack : https://fontawesome.com/icons/
 link = "#"
 
 [[social]]

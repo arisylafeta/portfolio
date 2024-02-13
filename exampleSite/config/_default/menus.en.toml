@@ -4,16 +4,16 @@
 
 
 [[main]]
-name = "Data Science & AI"
-url = "categories/datascience"
+name = "Home"
+url = "#"
 weight = 1
 
 [[main]]
-name = "Finance"
-url = "categories/finance"
+name = "Resume"
+url = "https://arisylafeta.github.io/resume/"
 weight = 2
 
 [[main]]
-name = "Block Chain & DAPP"
-url = "categories/blockchain"
+name = "Contact"
+url = "https://arisylafeta.github.io/resume/#contact"
 weight = 3

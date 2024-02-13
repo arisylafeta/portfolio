@@ -2,7 +2,7 @@
 date: "2021-10-01"
 title: "That which does not kill us makes us stronger"
 image: "images/blog/03.jpg"
-categories: ["hobby"]
+categories: ["Finance"]
 draft: false
 ---
 
