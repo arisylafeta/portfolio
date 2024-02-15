@@ -1,0 +1,6 @@
+/* Targets SVG elements inside MathJax containers */
+body .mjx-container svg {
+    vertical-align: middle !important; /* Adjust this value as needed */
+}
+
+

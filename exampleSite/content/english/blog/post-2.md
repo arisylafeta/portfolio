@@ -1,21 +1,20 @@
 ---
 date: "2021-10-01"
-title: "Do what you can, with you have, where you are"
-image: "images/blog/02.jpg"
-categories: ["Data Science & AI"]
+title: "Credit Default Probability Estimation under the KMV framework"
+image: "images/post-2/1.png"
+categories: ["Finance"]
 draft: false
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Corporate debt is an essential aspect of a company's capital structure, providing vital funds for growth and operations. However, it also introduces risk, as the company must meet its debt obligations to avoid default. This riskiness has led corporations like Moody's to develop sophisticated models to assess and manage credit risk. One such model is the KMV model, named after its creators Kealhofer, McQuown, and Vasicek. In this article, we will delve into the KMV model, explaining its theoretical underpinnings and providing a practical explanation through code. We will estimate both the probability of default and the implied credit spread using the Newton Raphson method as a technique for estimation.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+#### Literature Review
 
->  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
-et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem 
-ipsum dolor sit amet, consetetur sadipscing elitr,
+The KMV model is a cornerstone in the field of credit risk assessment. Its development was inspired by the pioneering work of Robert Merton in the early 1970s. Merton's structural model laid the foundation for understanding credit risk by treating a firm's equity as a call option on its assets.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**Ideas proposed by Merton:** <a href="https://onlinelibrary.wiley.com/doi/10.1111/j.1540-6261.1974.tb03058.x">Merton's model</a> was revolutionary in linking the concepts of option pricing to corporate debt. He proposed that the equity of a firm could be viewed as a call option on its assets, with the strike price being the total debt obligation. The value of the firm's equity, therefore, depends on the value and volatility of its assets. If the value of the assets falls below the debt obligation, the firm defaults, similar to an option expiring out of the money.
 
+$$ 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit. sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**What is the KMV Model:** The KMV model is an advanced application of Merton's framework, specifically designed to estimate a firm's probability of default. It calculates the distance to default (DD), which measures how many standard deviations the firm's assets are above the default threshold. The model then translates this distance into a probability of default using the standard normal cumulative distribution function.
+
