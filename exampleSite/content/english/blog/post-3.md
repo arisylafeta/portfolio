@@ -1,8 +1,8 @@
 ---
 date: "2021-10-01"
-title: "That which does not kill us makes us stronger"
+title: "Factor Portfolio Investing through K-Means Clustering"
 image: "images/blog/03.jpg"
-categories: ["Finance"]
+categories: ["Finance", "Data Science & AI"]
 draft: false
 ---
 

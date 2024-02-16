@@ -9,7 +9,7 @@ draft: false
 
 A spread option is a complex derivatives contract that derives its value from the difference, or spread, between the prices of two or more assets. In this blog post we shall try to value the price of a spread call option with the payoff function:
 
-**$$ C = max(S_{1} - S_{2} - K, 0)$$**
+$$ C = max(S_{1} - S_{2} - K, 0)$$
 
 Why is this instrument worth noting? In this exploration, we consider the motivations behind investing in spread call options amidst the turbulent global economic landscape of 2022. The significant post-pandemic inflation surge prompted the Federal Reserve to markedly increase the Effective Funds Rate from 0.25% to 4.5%. This sharp adjustment in interest rates impacts the future cash flows of growth-centric stocks by elevating the time value of money. Moreover, the potential economic downturn, as a countermeasure against inflation, might induce a shift towards risk aversion among investors. Anticipating a comparative underperformance of the tech-heavy NASDAQ100 against the more resilient SP500, we explore the utility of Spread Options as an investment strategy. Given that these instruments are traded over-the-counter with an opaque theoretical pricing mechanism, this study aims to elucidate an algorithm for calculating the value of spread options, enhance computational efficiency through vectorization, and validate our findings against established academic models.
 
@@ -290,3 +290,7 @@ plt.show()
 *Bjerksund & Stensland Call price: 3.8716*
 
 {{< image class="img-fluid rounded-6" title="image" src="/images/post-1/2.png" alt="results">}}
+
+#### Conclusion 
+
+We've been able to approximate the price of a spread option call price within 1 standard deviation of the closed form numerical solutions proposed by academia without constraining any of the parameters in our model. Future improvements to the codebase might include integrating stochastic volatility as part of the model. 
