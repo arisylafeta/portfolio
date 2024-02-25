@@ -1,5 +1,5 @@
 ---
-date: "2021-10-01"
+date: "2023-11-10"
 title: "Portfolio Allocation using FamaFrench5 and K-Means Clustering"
 image: "images/post-3/cover.png"
 categories: ["Finance", "Data Science & AI"]

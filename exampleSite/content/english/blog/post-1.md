@@ -1,5 +1,5 @@
 ---
-date: "2022-10-07"
+date: "2023-03-02"
 title: "Spread Option Pricing via Monte Carlo Simulations"
 image: "images/post-1/1.png"
 categories: ["Finance"]

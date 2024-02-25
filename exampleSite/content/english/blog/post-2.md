@@ -1,5 +1,5 @@
 ---
-date: "2021-10-01"
+date: "2023-10-03"
 title: "Credit Default Probability Estimation under the KMV framework"
 image: "images/post-2/1.png"
 categories: ["Finance"]
