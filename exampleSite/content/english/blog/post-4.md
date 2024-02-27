@@ -38,3 +38,4 @@ Recognizing the value of accessibility, Imaginify welcomes new users with 15 fre
 {{< image class="img-fluid rounded-6" title="image" src="/images/post-4/3.png" alt="element">}}
 
 Hope you enjoy using it as much as I've enjoyed creating it.
+<hr>

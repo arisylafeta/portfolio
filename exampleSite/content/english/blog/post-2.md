@@ -150,3 +150,4 @@ def ImpliedCreditSpread():
 #### Conclusion
 
 We've given a simple overview and implementation of estimating probability of default under the KMV framework, readers are encouraged to explore further articles on the topic. Future improvements might include more advanced numerical methods for optimization.
+<hr>
