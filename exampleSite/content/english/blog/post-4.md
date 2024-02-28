@@ -1,5 +1,5 @@
 ---
-date: "2021-10-01"
+date: "2023-10-01"
 title: "Imaginify: Image Manipulation with Generative AI "
 image: "images/post-4/cover.png"
 categories: ["Data Science & AI", "Software Development"]

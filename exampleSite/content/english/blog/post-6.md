@@ -1,5 +1,5 @@
 ---
-date: "2021-04-13"
+date: "2023-04-13"
 title: "Pricewise: Your Personal Price Parser"
 image: "images/post-6/cover.png"
 categories: ["Software Development"]
