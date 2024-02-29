@@ -29,7 +29,7 @@ contact_form_action = "#"
 
 
 # google tag manager, see https://developers.google.com/tag-manager/
-google_tag_manager = "" # example: G-XXXXXXXXXX
+google_tag_manager = "GTM-W9D9SRRF" # example: G-XXXXXXXXXX
 
 # theme-mode
 theme_switcher = true
@@ -37,7 +37,7 @@ theme_default = "light" # available options [light/dark/system]
 
 # seo meta data for OpenGraph / Twitter Card
 [metadata]
-keywords = ["Hugo", "Blog", "Statichunt", "iWriter"]
+keywords = ["Finance", "Data Science", "Arianit Sylafeta", "Quant"]
 description = "iWriter is a blog template based on Bootstrap and powered by Hugo"
 author = "Statichunt"
 image = "images/og-image.jpg"      # this image will be used as fallback if a page has no image of its own
