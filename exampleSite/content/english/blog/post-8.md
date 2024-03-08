@@ -2,7 +2,7 @@
 date: "2022-04-13"
 title: "Credit Value Adjustment via Monte Carlo Simulation"
 image: "images/post-8/cover.png"
-categories: ["Finance"]
+categories: ["Finance", 'Credit Risk']
 draft: false
 ---
 

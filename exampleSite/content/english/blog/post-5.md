@@ -2,7 +2,7 @@
 date: "2023-04-01"
 title: "WishFund: A Crowdfunding Decentralized Platform"
 image: "images/post-5/cover.png"
-categories: ["Software Development"]
+categories: ["Software Development", 'Blockchain Development']
 draft: false
 ---
 
