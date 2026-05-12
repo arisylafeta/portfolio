@@ -6,10 +6,10 @@ import { ProjectItem } from "./project-item";
 
 export function Projects() {
   return (
-    <Panel id="projects">
+    <Panel id="products">
       <PanelHeader>
         <PanelTitle>
-          Projects
+          Products
           <sup className="ml-1 font-mono text-sm text-muted-foreground select-none">
             ({PROJECTS.length})
           </sup>
@@ -18,7 +18,7 @@ export function Projects() {
 
       <CollapsibleList
         items={PROJECTS}
-        max={4}
+        max={5}
         renderItem={(item) => <ProjectItem project={item} />}
       />
     </Panel>

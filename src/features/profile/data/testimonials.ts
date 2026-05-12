@@ -31,24 +31,6 @@ export const TESTIMONIALS_1: Testimonial[] = [
   },
   {
     authorAvatar:
-      "https://media.licdn.com/dms/image/v2/D5603AQEOW9KfaQoXZw/profile-displayphoto-shrink_200_200/B56ZWo_i4EHQAc-/0/1742296987139?e=1779926400&v=beta&t=17S_vTKupzg3aJKh1_aF_9CTR1kVQ__pM3W-nUOTl2I",
-    authorName: "Alex Polglase",
-    authorBio: "Founder, ReBattery",
-    url: "https://www.linkedin.com/in/alex-polglase8/",
-    quote:
-      "One of the most creative and forward-thinking founders I've had the pleasure of working with - bold vision, fast execution, and real-world impact.",
-  },
-  {
-    authorAvatar:
-      "https://media.licdn.com/dms/image/v2/D5603AQHj2BUgztLCXQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1692261957801?e=1779926400&v=beta&t=Ji2n9aHKHjLZUonKIdvxp_BTV-UsH-KYS1yzgW71Nd0",
-    authorName: "Jacob Carpenter",
-    authorBio: "Head of Recycling, Gelion",
-    url: "https://www.linkedin.com/in/jacob-carpenter-897b89142/",
-    quote:
-      "Exceptionally tech-forward and a joy to collaborate with - sharp, funny, and always pushing practical innovation forward.",
-  },
-  {
-    authorAvatar:
       "https://media.licdn.com/dms/image/v2/D4E03AQEnt3V65Mgfsg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1699031383868?e=1779926400&v=beta&t=q1JGZIHpUWNDff5c-fll9xnIam2-_953M2S780RXDz4",
     authorName: "Aleksander Napieraj",
     authorBio: "Co-Founder and CEO, Barnab",

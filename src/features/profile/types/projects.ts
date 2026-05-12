@@ -2,6 +2,8 @@ export type Project = {
   /** Stable unique identifier (used as list key/anchor). */
   id: string;
   title: string;
+  /** Short one-liner shown in collapsed project row. */
+  tagline?: string;
   /**
    * Project period for display and sorting.
    * Use "MM.YYYY" format. Omit `end` for ongoing projects.

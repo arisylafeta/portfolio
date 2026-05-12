@@ -39,7 +39,7 @@ export function ProjectItem({
               width={32}
               height={32}
               quality={100}
-              className="mx-4 flex size-6 shrink-0 select-none"
+              className="mx-4 flex size-6 shrink-0 object-contain select-none"
               unoptimized
               aria-hidden="true"
             />
@@ -58,6 +58,12 @@ export function ProjectItem({
                 <h3 className="mb-1 leading-snug font-medium text-balance">
                   {project.title}
                 </h3>
+
+                {project.tagline && (
+                  <p className="mb-1 line-clamp-1 text-sm text-muted-foreground">
+                    {project.tagline}
+                  </p>
+                )}
 
                 <dl className="text-sm text-muted-foreground">
                   <dt className="sr-only">Period</dt>

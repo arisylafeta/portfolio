@@ -97,8 +97,8 @@ const PORTFOLIO_LINKS: CommandLinkItem[] = [
     icon: BriefcaseBusinessIcon,
   },
   {
-    title: "Projects",
-    href: "/#projects",
+    title: "Products",
+    href: "/#products",
     icon: Icons.project,
   },
   {

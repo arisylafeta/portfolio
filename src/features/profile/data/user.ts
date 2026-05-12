@@ -41,7 +41,7 @@ export const USER: User = {
 - My interests include energy markets, agent commerce, and AI organizational management.
 - Outside work, I spend time on chess and Brazilian jiu-jitsu.
 `,
-  avatar: "/images/me.jpg",
+  avatar: "/images/me.png",
   ogImage: "/images/og-image-light.png",
   namePronunciationUrl: "/audio/abdulrehman.mp3",
   keywords: [
