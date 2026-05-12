@@ -35,10 +35,10 @@ export const USER: User = {
     },
   ],
   about: `
-- I am a founder focused on building practical AI-native products.
-- I cofounded **Salespeak**, where we help SMBs reach out to and qualify leads using Voice AI.
+- I am currently CTO at **ReBattery**.
+- I help make the battery market more liquid by applying a technical lens to battery data and customer transactions.
 - I enjoy turning complex ideas into clear product experiences, from prototype to production.
-- My interests include conversational agents, GUI agents, and product systems that scale.
+- My interests include energy markets, agent commerce, and AI organizational management.
 - Outside work, I spend time on chess and Brazilian jiu-jitsu.
 `,
   avatar: "/images/me.jpg",

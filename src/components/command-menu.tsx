@@ -102,7 +102,7 @@ const PORTFOLIO_LINKS: CommandLinkItem[] = [
     icon: Icons.project,
   },
   {
-    title: "Honors & Awards",
+    title: "Education",
     href: "/#awards",
     icon: Icons.award,
   },

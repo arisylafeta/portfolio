@@ -72,32 +72,4 @@ export const EXPERIENCES: Experience[] = [
       },
     ],
   },
-  {
-    id: "education",
-    companyName: "Education",
-    positions: [
-      {
-        id: "birkbeck-msc",
-        title: "Birkbeck, University of London",
-        employmentPeriod: {
-          start: "2023",
-          end: "2024",
-        },
-        icon: "education",
-        description: `- MSc, Quantitative Finance with Data Science.`,
-        skills: ["Quantitative Finance", "Data Science"],
-      },
-      {
-        id: "rit-baasc",
-        title: "Rochester Institute of Technology",
-        employmentPeriod: {
-          start: "2018",
-          end: "2022",
-        },
-        icon: "education",
-        description: `- BAASc, Web and Mobile Computing in IT.`,
-        skills: ["Web Development", "Mobile Development"],
-      },
-    ],
-  },
 ];

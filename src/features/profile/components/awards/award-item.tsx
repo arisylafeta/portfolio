@@ -1,5 +1,6 @@
 import dayjs from "dayjs";
 import { FileCheckIcon } from "lucide-react";
+import Image from "next/image";
 
 import { Icons } from "@/components/icons";
 import { Markdown } from "@/components/markdown";
@@ -23,16 +24,31 @@ export function AwardItem({
   award: Award;
 }) {
   const canExpand = !!award.description;
+  const period =
+    award.startDate && award.endDate
+      ? `${award.startDate} - ${award.endDate}`
+      : dayjs(award.date).format("MM.YYYY");
 
   return (
     <CollapsibleWithContext disabled={!canExpand} asChild>
       <div className={className}>
         <div className="flex items-center hover:bg-accent2">
           <div
-            className="mx-4 flex size-6 shrink-0 items-center justify-center rounded-lg border border-muted-foreground/15 bg-muted ring-1 ring-edge ring-offset-1 ring-offset-background"
+            className="mx-4 flex size-6 shrink-0 items-center justify-center overflow-hidden rounded-md border border-muted-foreground/15 bg-muted ring-1 ring-edge ring-offset-1 ring-offset-background"
             aria-hidden
           >
-            <Icons.award className="pointer-events-none size-4 text-muted-foreground" />
+            {award.logo ? (
+              <Image
+                src={award.logo}
+                alt=""
+                width={24}
+                height={24}
+                className="size-6 object-cover"
+                unoptimized
+              />
+            ) : (
+              <Icons.award className="pointer-events-none size-4 text-muted-foreground" />
+            )}
           </div>
 
           <div className="flex-1 border-l border-dashed border-edge">
@@ -54,10 +70,10 @@ export function AwardItem({
                   />
 
                   <dl>
-                    <dt className="sr-only">Awarded in</dt>
+                    <dt className="sr-only">Period</dt>
                     <dd>
                       <time dateTime={dayjs(award.date).toISOString()}>
-                        {dayjs(award.date).format("MM.YYYY")}
+                        {period}
                       </time>
                     </dd>
                   </dl>
