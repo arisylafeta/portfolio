@@ -2,117 +2,69 @@ import type { Testimonial } from "../types/testimonials";
 
 export const TESTIMONIALS_1: Testimonial[] = [
   {
-    authorAvatar: "/images/experience/forrof.svg",
-    authorName: "Faraz Mahmood",
-    authorBio: "Founder @forrof.io",
-    url: "https://www.forrof.io",
-    quote: "Attention to detail and quality work are truly commendable",
+    authorAvatar:
+      "https://media.licdn.com/dms/image/v2/D4E03AQFRo_XimDlVHQ/profile-displayphoto-scale_200_200/B4EZodhYNMIQAY-/0/1761431881204?e=1779926400&v=beta&t=DFGv0mokkeNOD6UXjEIBJG9-wPb5YwTxHNNTbbVBQmE",
+    authorName: "Lorenzo Mantilla Gutierrez",
+    authorBio: "Analyst, RBC BlueBay",
+    url: "https://www.linkedin.com/in/lorenzo-m-125236107/",
+    quote:
+      "Working with Arianit has been a delight. His intellect and ability to simplify complex topics stand out.",
     theme: true,
   },
   {
     authorAvatar:
-      "https://robohash.org/RallyTyper?set=set1&bgset=bg1&size=64x64",
-    authorName: "RallyTyper Team",
-    authorBio: "Free Online Typing Game",
-    url: "https://rallytyper.com",
+      "https://media.licdn.com/dms/image/v2/C4E03AQHhh7uTB0t2Ug/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1534103975198?e=1779926400&v=beta&t=G6WnYbBHa5mJHIkE5vUSV1IhVZwAAsXt9qQnf5SAYF8",
+    authorName: "Peter Millington",
+    authorBio: "Head of Markets, Santander",
+    url: "https://www.linkedin.com/in/peter-d-millington/",
     quote:
-      "Built our admin dashboard with CMS. Exceptional problem-solving skills!",
+      "Arianit combines strong work ethic with practical insight. He consistently turns data into clear actions.",
   },
   {
     authorAvatar:
-      "https://robohash.org/Khrimisay?set=set2&bgset=bg2&size=64x64",
-    authorName: "Khrimisay Dev Team",
-    authorBio: "Messaging Platform",
-    url: "https://dev.khrimisay.com",
+      "https://media.licdn.com/dms/image/v2/D4D03AQFLVwvwwakNVA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1671045450903?e=1779926400&v=beta&t=9D6yBmc5_1c30mYf0XZLJqnHMAjR14pWF3kNqSn5jJo",
+    authorName: "Nikos Gakis",
+    authorBio: "Analyst, BNP Paribas",
+    url: "https://www.linkedin.com/in/nikolaosgakis/",
     quote:
-      "Fixed critical PWA bugs that blocked us for weeks. Great debugging skills!",
+      "He learns quickly, applies ideas in real contexts, and contributes effectively across different teams.",
   },
   {
     authorAvatar:
-      "https://robohash.org/SpaceFacts?set=set3&bgset=bg1&size=64x64",
-    authorName: "Space Facts Client",
-    authorBio: "iOS Educational App",
-    url: "https://apps.apple.com/us/app/space-facts-explorer/id6749238944",
+      "https://media.licdn.com/dms/image/v2/D5603AQEOW9KfaQoXZw/profile-displayphoto-shrink_200_200/B56ZWo_i4EHQAc-/0/1742296987139?e=1779926400&v=beta&t=17S_vTKupzg3aJKh1_aF_9CTR1kVQ__pM3W-nUOTl2I",
+    authorName: "Alex Polglase",
+    authorBio: "Founder, ReBattery",
+    url: "https://www.linkedin.com/in/alex-polglase8/",
     quote:
-      "Turned my 9 year old's dream into reality! My son loves sharing it with friends.",
+      "One of the most creative and forward-thinking founders I've had the pleasure of working with - bold vision, fast execution, and real-world impact.",
   },
   {
-    authorAvatar: "https://robohash.org/Fynosign?set=set4&bgset=bg2&size=64x64",
-    authorName: "Fynosign Client",
-    authorBio: "E-Signature Platform",
-    url: "https://fynosign.com",
+    authorAvatar:
+      "https://media.licdn.com/dms/image/v2/D5603AQHj2BUgztLCXQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1692261957801?e=1779926400&v=beta&t=Ji2n9aHKHjLZUonKIdvxp_BTV-UsH-KYS1yzgW71Nd0",
+    authorName: "Jacob Carpenter",
+    authorBio: "Head of Recycling, Gelion",
+    url: "https://www.linkedin.com/in/jacob-carpenter-897b89142/",
     quote:
-      "Built our entire SaaS platform. Solved the hardest PDF signing challenge. Production-ready!",
+      "Exceptionally tech-forward and a joy to collaborate with - sharp, funny, and always pushing practical innovation forward.",
   },
   {
-    authorAvatar: "https://robohash.org/TruerEHR?set=set1&bgset=bg2&size=64x64",
-    authorName: "Truer EHR Team",
-    authorBio: "Healthcare Dashboard",
-    url: "https://ehr-dashboard-nine.vercel.app",
+    authorAvatar:
+      "https://media.licdn.com/dms/image/v2/D4E03AQEnt3V65Mgfsg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1699031383868?e=1779926400&v=beta&t=q1JGZIHpUWNDff5c-fll9xnIam2-_953M2S780RXDz4",
+    authorName: "Aleksander Napieraj",
+    authorBio: "Co-Founder and CEO, Barnab",
+    url: "https://www.linkedin.com/in/aleknapieraj/",
     quote:
-      "Excellent frontend work with complex APIs. Delivered stable patient management features.",
+      "Arianit blends strategic thinking with hands-on execution - exactly the kind of partner you want when building bold products under real constraints.",
   },
   {
-    authorAvatar: "https://robohash.org/Fitreps?set=set2&bgset=bg1&size=64x64",
-    authorName: "Fitreps Team",
-    authorBio: "Fitness Platform",
-    url: "https://www.fitreps.com",
+    authorAvatar:
+      "https://media.licdn.com/dms/image/v2/D4E03AQHaqqC2LC-2MA/profile-displayphoto-scale_200_200/B4EZ3KelpEKAAc-/0/1777218515213?e=1779926400&v=beta&t=UkC3-ij3HjLC0BaQp5hxQI8yCbruN1k8JCfkKimZ-TU",
+    authorName: "Lisa Didenko",
+    authorBio: "Founder, Setmindset",
+    url: "https://www.linkedin.com/in/yelyzaveta-didenko/",
     quote:
-      "Redesigned our UI from boring to modern. Even created dark mode from scratch!",
+      "Arianit brings rare founder-energy to every project: decisive, creative, and relentlessly focused on outcomes that actually move the business.",
   },
 ];
 
-export const TESTIMONIALS_2: Testimonial[] = [
-  {
-    authorAvatar:
-      "https://robohash.org/StallBedding?set=set3&bgset=bg2&size=64x64",
-    authorName: "Bedding Calculator Client",
-    authorBio: "Horse Stall Calculator",
-    url: "https://bedding-calculator.netlify.app",
-    quote:
-      "Made complex calculations simple with pure HTML/CSS/JS. Fully responsive!",
-  },
-  {
-    authorAvatar:
-      "https://robohash.org/ZasDashboard?set=set4&bgset=bg1&size=64x64",
-    authorName: "Zas Analytics Team",
-    authorBio: "Employment Analytics",
-    url: "https://zas-dashboard-v12n.vercel.app",
-    quote:
-      "Transformed 100k+ rows into clear insights. Made complex data accessible.",
-  },
-  {
-    authorAvatar:
-      "https://robohash.org/Precision?set=set1&bgset=bg1&size=64x64",
-    authorName: "Precision Platform Team",
-    authorBio: "Real Estate Due Diligence",
-    url: "/internal-project",
-    quote:
-      "Rebuilt our CSV module. Drastically reduced upload errors for our brokers.",
-  },
-  {
-    authorAvatar:
-      "https://robohash.org/LeadSmart?set=set2&bgset=bg2&size=64x64",
-    authorName: "Lead Smart Team",
-    authorBio: "Affiliate Marketing Dashboard",
-    url: "/internal-project",
-    quote:
-      "Cleaned up our messy codebase. Dashboard is now much more maintainable.",
-  },
-  {
-    authorAvatar: "https://robohash.org/EdTech?set=set3&bgset=bg1&size=64x64",
-    authorName: "EdTech Platform Team",
-    authorBio: "Learning Management System",
-    url: "/internal-project",
-    quote:
-      "Refactored our auth flow with Redux. Made registration much cleaner.",
-  },
-  {
-    authorAvatar: "https://robohash.org/LoopIQ?set=set4&bgset=bg2&size=64x64",
-    authorName: "LoopIQ Team",
-    authorBio: "Healthcare Management",
-    url: "https://www.loopiq.xyz",
-    quote:
-      "Delivers clean, scalable components. Great collaboration on production deployments.",
-  },
-];
+export const TESTIMONIALS_2: Testimonial[] = [...TESTIMONIALS_1];

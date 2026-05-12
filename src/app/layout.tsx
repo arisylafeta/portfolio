@@ -49,11 +49,11 @@ export const metadata: Metadata = {
   keywords: SITE_INFO.keywords,
   authors: [
     {
-      name: "abdulrehman",
+      name: "Arianit Sylafeta",
       url: SITE_INFO.url,
     },
   ],
-  creator: "abdulrehman",
+  creator: "Arianit Sylafeta",
   openGraph: {
     siteName: SITE_INFO.name,
     url: "/",
@@ -73,7 +73,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    creator: "@abdulrehman_code", // Twitter username
+    creator: "@arisylafeta",
     images: [SITE_INFO.ogImage],
   },
   icons: {

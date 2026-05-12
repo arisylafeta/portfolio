@@ -1,37 +1,16 @@
-import { RssIcon } from "lucide-react";
-
-import { SITE_INFO, SOURCE_CODE_GITHUB_URL } from "@/config/site";
-
-import { Icons } from "./icons";
+import { SITE_INFO } from "@/config/site";
 
 export function SiteFooter() {
   return (
     <footer className="max-w-screen overflow-x-hidden px-2">
       <div className="screen-line-before mx-auto border-x border-edge pt-4 md:max-w-3xl">
         <p className="mb-1 px-4 text-center font-mono text-sm text-balance text-muted-foreground">
-          Inspired by tailwindcss.com & ui.shadcn.com
+          Inspired by open-source craftsmanship and thoughtful design
         </p>
 
         <p className="mb-4 px-4 text-center font-mono text-sm text-balance text-muted-foreground">
-          Built by a {""}
-          {/* <a
-            className="link"
-            href="https://www.linkedin.com/in/abdulrehmanwaseem"
-            target="_blank"
-            rel="noopener"
-          >
-            abdul rehman
-          </a> */}
-          human. The source code is available on{" "}
-          <a
-            className="link"
-            href={SOURCE_CODE_GITHUB_URL}
-            target="_blank"
-            rel="noopener"
-          >
-            GitHub
-          </a>
-          .
+          Built by a human with intent, curiosity, and stubborn attention to
+          detail.
         </p>
 
         <div className="screen-line-before screen-line-after flex w-full before:z-1 after:z-1">
@@ -44,33 +23,6 @@ export function SiteFooter() {
             >
               llms.txt
             </a>
-
-            <Separator />
-
-            <a
-              className="flex items-center text-muted-foreground transition-colors hover:text-foreground"
-              href={`${SITE_INFO.url}/rss`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <RssIcon className="size-4" />
-              <span className="sr-only">RSS</span>
-            </a>
-
-            <Separator />
-
-            <a
-              className="flex text-muted-foreground transition-colors hover:text-foreground"
-              href={
-                process.env.NEXT_PUBLIC_DMCA_URL ||
-                "https://www.dmca.com/ProtectionPro.aspx"
-              }
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Icons.dmca className="h-5 w-auto" />
-              <span className="sr-only">DMCA.com Protection Status</span>
-            </a>
           </div>
         </div>
       </div>
@@ -79,8 +31,4 @@ export function SiteFooter() {
       </div>
     </footer>
   );
-}
-
-function Separator() {
-  return <div className="flex h-11 w-px bg-edge" />;
 }

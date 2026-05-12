@@ -13,7 +13,6 @@ import {
   IntroItemLink,
 } from "./intro-item";
 import { JobItem } from "./job-item";
-import { PhoneItem } from "./phone-item";
 
 export function Overview() {
   return (
@@ -21,17 +20,11 @@ export function Overview() {
       <h2 className="sr-only">Overview</h2>
 
       <PanelContent className="space-y-2.5">
-        <JobItem
-          title={USER.jobs[0].title}
-          company={USER.jobs[0].company}
-          website={USER.jobs[0].website}
-        />
-
         <div className="grid gap-x-12 gap-y-2.5 sm:grid-cols-2">
           <JobItem
-            title={USER.jobs[1].title}
-            company={USER.jobs[1].company}
-            website={USER.jobs[1].website}
+            title={USER.jobs[0].title}
+            company={USER.jobs[0].company}
+            website={USER.jobs[0].website}
           />
 
           <IntroItem>
@@ -58,10 +51,6 @@ export function Overview() {
           </IntroItem>
 
           <CurrentLocalTimeItem timeZone={USER.timeZone} />
-
-          <PhoneItem phoneNumber={USER.phoneNumber} />
-
-          <PhoneItem phoneNumber={USER.secondPhoneNumber} />
 
           <EmailItem email={USER.email} />
 

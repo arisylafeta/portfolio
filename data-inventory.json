@@ -1,0 +1,79 @@
+{
+  "profile": {
+    "name": "Arianit Sylafeta",
+    "handle": "@arisylafeta",
+    "role": "Founder & AI Engineer",
+    "status": "Building Salespeak - open to collaborations",
+    "tagline": "I cofounded Salespeak, helping SMBs reach and qualify leads using Voice AI. I design and ship AI-native products from idea to production.",
+    "heroImage": "/user-picture.png",
+    "email": "arianit.sylafeta@gmail.com",
+    "socials": {
+      "github": "https://github.com/arisylafeta",
+      "linkedin": "https://www.linkedin.com/in/arianitsylafeta"
+    }
+  },
+  "aboutSections": [
+    {
+      "id": "summary",
+      "title": "Summary",
+      "body": "Founder focused on AI-native applications and agentic experiences, with a strong product mindset and execution speed."
+    },
+    {
+      "id": "education",
+      "title": "Education",
+      "body": "MSc Quantitative Finance with Data Science at Birkbeck, University of London, after a BAASc in Web and Mobile Computing."
+    },
+    {
+      "id": "experience",
+      "title": "Work Experience",
+      "body": "Co-Founder at Salespeak (2024-present), previously Quantitative Analyst at Quantera and ML Intern at Solaborate."
+    },
+    {
+      "id": "interests",
+      "title": "Likes & Interests",
+      "body": "Outside work, I spend time on chess, Brazilian jiu-jitsu, and exploring how Conversational + GUI agents reshape software."
+    }
+  ],
+  "projects": [
+    {
+      "title": "KAI Voice Agent",
+      "description": "Voice-first AI assistant for daily tasks, built for low-latency interactions and practical utility.",
+      "tech": ["Next.js", "LiveKit", "Gemini", "Vercel"]
+    },
+    {
+      "title": "Salespeak",
+      "description": "Voice AI outreach platform for SMBs that handles qualification flows and improves top-of-funnel efficiency.",
+      "tech": ["TypeScript", "LLMs", "Automation", "Product Analytics"]
+    },
+    {
+      "title": "20 Punches",
+      "description": "Experimental multi-modal assistant combining text, voice, and UI-driven interactions.",
+      "tech": ["OpenAI API", "Speech", "Three.js", "React"]
+    }
+  ],
+  "experience": [
+    {
+      "period": "Dec 2024 - Present",
+      "role": "Co-Founder",
+      "company": "Salespeak",
+      "location": "London, UK (Remote)"
+    },
+    {
+      "period": "Oct 2022 - Sep 2023",
+      "role": "Quantitative Analyst",
+      "company": "Quantera",
+      "location": "London, UK (On-site)"
+    },
+    {
+      "period": "Jul 2022 - Sep 2022",
+      "role": "Machine Learning Intern",
+      "company": "Solaborate",
+      "location": "Pristina, Kosovo (On-site)"
+    }
+  ],
+  "contact": {
+    "formEndpoint": "/api/contact",
+    "recipient": "ari.sylafeta@gmail.com",
+    "resendSender": "Portfolio Contact <onboarding@resend.dev>"
+  }
+}

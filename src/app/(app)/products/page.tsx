@@ -6,21 +6,21 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 
 export const metadata: Metadata = {
-  title: "Products - Abdul Rehman",
+  title: "Products - Arianit Sylafeta",
   description:
     "Explore my products and projects built with modern technologies.",
 };
 
 const products = [
   {
-    id: "shopflow",
-    name: "ShopFlow",
+    id: "salespeak",
+    name: "Salespeak",
     description:
-      "A comprehensive PERN stack shop management system with real-time dashboards, inventory tracking and financial analytics.",
-    href: "/products/shopflow",
+      "Voice AI product helping SMBs run outreach and lead qualification with higher efficiency.",
+    href: "/products",
     status: "Live",
-    tech: ["React", "Node.js", "PostgreSQL", "TypeScript"],
-    image: "/images/blogs/shopflow.png",
+    tech: ["TypeScript", "LLMs", "Voice AI", "Automation"],
+    image: "/images/me.jpg",
   },
 ];
 
@@ -30,7 +30,7 @@ export default function ProductsPage() {
       <div className="mx-auto max-w-5xl">
         <div className="mb-12 text-center">
           <h1 className="mb-4 text-4xl font-bold tracking-tight md:text-5xl">
-            My SaaS Products
+            My Products
           </h1>
           <p className="text-lg text-muted-foreground">
             Custom-built solutions showcasing modern web development
