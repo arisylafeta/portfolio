@@ -17,9 +17,7 @@ export const EXPERIENCES: Experience[] = [
         employmentType: "Full-time",
         icon: "business",
         isExpanded: true,
-        description: `- I lead the technical strategy at ReBattery with one simple lens: make battery commerce feel as liquid as modern capital markets. That means building reliable data flows, practical AI tooling, and product systems that help teams move from “interesting signal” to confident decision.
-- I work across product, engineering, and operations to turn messy market inputs into clear workflows. We prioritize speed without chaos: tight feedback loops, measured rollouts, and architecture that can survive real customer pressure, not just demo-day optimism.
-- I still stay hands-on where it matters most: critical design decisions, platform foundations, and execution quality. The goal is not flashy complexity. It is durable leverage that compounds over time for customers, the team, and the market we are helping modernize.`,
+        description: `- At ReBattery, I lead product and engineering to help teams make better battery decisions faster using reliable data and practical AI. I stay hands-on in architecture and execution so we can ship quickly without compromising quality or trust.`,
         skills: ["Technology Strategy", "AI Systems", "Leadership"],
       },
     ],
