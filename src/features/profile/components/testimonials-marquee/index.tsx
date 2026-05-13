@@ -5,7 +5,7 @@ import {
   MarqueeItem,
 } from "@/components/kibo-ui/marquee";
 
-import { TESTIMONIALS_1, TESTIMONIALS_2 } from "../../data/testimonials";
+import { TESTIMONIALS_1 } from "../../data/testimonials";
 import { Panel } from "../panel";
 import { TestimonialItem } from "./testimonial-item";
 
@@ -23,26 +23,6 @@ export function TestimonialsMarquee() {
 
         <MarqueeContent>
           {TESTIMONIALS_1.slice()
-            .sort((a, b) => a.authorName.localeCompare(b.authorName))
-            .map((item) => (
-              <MarqueeItem
-                key={item.authorName}
-                className="mx-0 h-full w-xs border-r border-edge"
-              >
-                <TestimonialItem {...item} />
-              </MarqueeItem>
-            ))}
-        </MarqueeContent>
-      </Marquee>
-
-      <div className="screen-line-before screen-line-after relative flex h-4 w-full" />
-
-      <Marquee>
-        <MarqueeFade side="left" />
-        <MarqueeFade side="right" />
-
-        <MarqueeContent direction="right">
-          {TESTIMONIALS_2.slice()
             .sort((a, b) => a.authorName.localeCompare(b.authorName))
             .map((item) => (
               <MarqueeItem

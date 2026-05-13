@@ -8,7 +8,7 @@ export const TESTIMONIALS_1: Testimonial[] = [
     authorBio: "Analyst, RBC BlueBay",
     url: "https://www.linkedin.com/in/lorenzo-m-125236107/",
     quote:
-      "Working with Arianit has been a delight. His intellect and ability to simplify complex topics stand out.",
+      "Working with Arianit was easy. He explains complex topics clearly and keeps discussions practical.",
     theme: true,
   },
   {
@@ -18,7 +18,7 @@ export const TESTIMONIALS_1: Testimonial[] = [
     authorBio: "Head of Markets, Santander",
     url: "https://www.linkedin.com/in/peter-d-millington/",
     quote:
-      "Arianit combines strong work ethic with practical insight. He consistently turns data into clear actions.",
+      "Arianit works hard and stays practical. He turns data into clear next steps.",
   },
   {
     authorAvatar:
@@ -27,7 +27,7 @@ export const TESTIMONIALS_1: Testimonial[] = [
     authorBio: "Analyst, BNP Paribas",
     url: "https://www.linkedin.com/in/nikolaosgakis/",
     quote:
-      "He learns quickly, applies ideas in real contexts, and contributes effectively across different teams.",
+      "He learns fast, applies ideas in real work, and collaborates well across teams.",
   },
   {
     authorAvatar:
@@ -36,7 +36,7 @@ export const TESTIMONIALS_1: Testimonial[] = [
     authorBio: "Co-Founder and CEO, Barnab",
     url: "https://www.linkedin.com/in/aleknapieraj/",
     quote:
-      "Arianit blends strategic thinking with hands-on execution - exactly the kind of partner you want when building bold products under real constraints.",
+      "Arianit balances strategy with execution. He is a reliable partner when building products with real constraints.",
   },
   {
     authorAvatar:
@@ -45,7 +45,7 @@ export const TESTIMONIALS_1: Testimonial[] = [
     authorBio: "Founder, Setmindset",
     url: "https://www.linkedin.com/in/yelyzaveta-didenko/",
     quote:
-      "Arianit brings rare founder-energy to every project: decisive, creative, and relentlessly focused on outcomes that actually move the business.",
+      "Arianit brings strong founder energy to projects. He is decisive, creative, and focused on business outcomes.",
   },
 ];
 
