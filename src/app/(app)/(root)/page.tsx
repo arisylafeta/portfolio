@@ -1,4 +1,5 @@
 import dayjs from "dayjs";
+import Script from "next/script";
 import type { ProfilePage as PageSchema, WithContext } from "schema-dts";
 
 import { About } from "@/features/profile/components/about";
@@ -21,8 +22,10 @@ import { cn } from "@/lib/utils";
 export default function Page() {
   return (
     <>
-      <script
+      <Script
+        id="profile-page-jsonld"
         type="application/ld+json"
+        strategy="beforeInteractive"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(getPageJsonLd()).replace(/</g, "\\u003c"),
         }}

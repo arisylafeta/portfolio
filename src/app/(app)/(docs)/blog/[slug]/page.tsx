@@ -2,8 +2,10 @@ import dayjs from "dayjs";
 import { getTableOfContents } from "fumadocs-core/content/toc";
 import { ArrowLeftIcon, ArrowRightIcon } from "lucide-react";
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import Script from "next/script";
 import type { BlogPosting as PageSchema, WithContext } from "schema-dts";
 
 import { InlineTOC } from "@/components/inline-toc";
@@ -114,8 +116,10 @@ export default async function Page({
 
   return (
     <>
-      <script
+      <Script
+        id={`blog-post-jsonld-${post.slug}`}
         type="application/ld+json"
+        strategy="beforeInteractive"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(getPageJsonLd(post)).replace(/</g, "\\u003c"),
         }}
@@ -177,6 +181,17 @@ export default async function Page({
         <h1 className="screen-line-after mb-6 font-semibold">
           {post.metadata.title}
         </h1>
+
+        {post.metadata.image && (
+          <Image
+            src={post.metadata.image}
+            alt={post.metadata.title}
+            width={1200}
+            height={630}
+            className="mb-6 w-full rounded-xl border object-cover"
+            priority
+          />
+        )}
 
         <p className="lead mt-6 mb-6">{post.metadata.description}</p>
 
