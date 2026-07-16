@@ -17,7 +17,7 @@ const products = [
   {
     id: "rebattery",
     name: "ReBattery",
-    icon: "https://media.licdn.com/dms/image/v2/D560BAQE0kQZ8lP-9EA/company-logo_100_100/B56Zzep4IDJgAU-/0/1773262046122/rebatteryplatform_logo?e=1779926400&v=beta&t=o8E4dFLKnudpzQ5vc3ll45Yn2cmPCIZeG3euUW4LYaY",
+    icon: "/images/linkedin/organizations/rebattery.jpg",
     description:
       "Market infrastructure product helping make battery transactions more liquid through better data and AI-enabled execution workflows.",
     href: "https://rebattery.io/",

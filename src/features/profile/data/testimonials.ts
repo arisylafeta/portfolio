@@ -3,7 +3,7 @@ import type { Testimonial } from "../types/testimonials";
 export const TESTIMONIALS_1: Testimonial[] = [
   {
     authorAvatar:
-      "https://media.licdn.com/dms/image/v2/D4E03AQFRo_XimDlVHQ/profile-displayphoto-scale_200_200/B4EZodhYNMIQAY-/0/1761431881204?e=1779926400&v=beta&t=DFGv0mokkeNOD6UXjEIBJG9-wPb5YwTxHNNTbbVBQmE",
+      "/images/linkedin/testimonials/lorenzo-mantilla-gutierrez.jpg",
     authorName: "Lorenzo Mantilla Gutierrez",
     authorBio: "Analyst, RBC BlueBay",
     url: "https://www.linkedin.com/in/lorenzo-m-125236107/",
@@ -12,8 +12,7 @@ export const TESTIMONIALS_1: Testimonial[] = [
     theme: true,
   },
   {
-    authorAvatar:
-      "https://media.licdn.com/dms/image/v2/C4E03AQHhh7uTB0t2Ug/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1534103975198?e=1779926400&v=beta&t=G6WnYbBHa5mJHIkE5vUSV1IhVZwAAsXt9qQnf5SAYF8",
+    authorAvatar: "/images/linkedin/testimonials/peter-millington.jpg",
     authorName: "Peter Millington",
     authorBio: "Head of Markets, Santander",
     url: "https://www.linkedin.com/in/peter-d-millington/",
@@ -21,8 +20,7 @@ export const TESTIMONIALS_1: Testimonial[] = [
       "Arianit works hard and stays practical. He turns data into clear next steps.",
   },
   {
-    authorAvatar:
-      "https://media.licdn.com/dms/image/v2/D4D03AQFLVwvwwakNVA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1671045450903?e=1779926400&v=beta&t=9D6yBmc5_1c30mYf0XZLJqnHMAjR14pWF3kNqSn5jJo",
+    authorAvatar: "/images/linkedin/testimonials/nikos-gakis.jpg",
     authorName: "Nikos Gakis",
     authorBio: "Analyst, BNP Paribas",
     url: "https://www.linkedin.com/in/nikolaosgakis/",
@@ -30,8 +28,7 @@ export const TESTIMONIALS_1: Testimonial[] = [
       "He learns fast, applies ideas in real work, and collaborates well across teams.",
   },
   {
-    authorAvatar:
-      "https://media.licdn.com/dms/image/v2/D4E03AQEnt3V65Mgfsg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1699031383868?e=1779926400&v=beta&t=q1JGZIHpUWNDff5c-fll9xnIam2-_953M2S780RXDz4",
+    authorAvatar: "/images/linkedin/testimonials/aleksander-napieraj.jpg",
     authorName: "Aleksander Napieraj",
     authorBio: "Co-Founder and CEO, Barnab",
     url: "https://www.linkedin.com/in/aleknapieraj/",
@@ -39,8 +36,7 @@ export const TESTIMONIALS_1: Testimonial[] = [
       "Arianit balances strategy with execution. He is a reliable partner when building products with real constraints.",
   },
   {
-    authorAvatar:
-      "https://media.licdn.com/dms/image/v2/D4E03AQHaqqC2LC-2MA/profile-displayphoto-scale_200_200/B4EZ3KelpEKAAc-/0/1777218515213?e=1779926400&v=beta&t=UkC3-ij3HjLC0BaQp5hxQI8yCbruN1k8JCfkKimZ-TU",
+    authorAvatar: "/images/linkedin/testimonials/lisa-didenko.jpg",
     authorName: "Lisa Didenko",
     authorBio: "Founder, Setmindset",
     url: "https://www.linkedin.com/in/yelyzaveta-didenko/",

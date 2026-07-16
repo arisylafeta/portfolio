@@ -12,7 +12,7 @@ export const PROJECTS: Project[] = [
 - Built to connect fragmented market data, customer workflows, and transaction intelligence into one operating layer.
 - Combines practical AI systems with domain-specific product design to accelerate matching, qualification, and commercial decision cycles.
 - Designed with operator-first constraints: reliable data foundations, clear execution paths, and tooling that scales with real market complexity.`,
-    logo: "https://media.licdn.com/dms/image/v2/D560BAQE0kQZ8lP-9EA/company-logo_100_100/B56Zzep4IDJgAU-/0/1773262046122/rebatteryplatform_logo?e=1779926400&v=beta&t=o8E4dFLKnudpzQ5vc3ll45Yn2cmPCIZeG3euUW4LYaY",
+    logo: "/images/linkedin/organizations/rebattery.jpg",
   },
   {
     id: "easyclaw",

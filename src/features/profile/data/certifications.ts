@@ -4,8 +4,7 @@ export const CERTIFICATIONS: Certification[] = [
   {
     title: "Reinforcement Learning in Finance",
     issuer: "New York University",
-    issuerLogoURL:
-      "https://media.licdn.com/dms/image/v2/C4D0BAQF6TmzLkch0dQ/company-logo_100_100/company-logo_100_100/0/1630556159190/new_york_university_logo?e=1779926400&v=beta&t=WjZ7J14LMUANKLSKQCosuyWMtCamPX83yQnRFkXYVMc",
+    issuerLogoURL: "/images/linkedin/organizations/new-york-university.jpg",
     issueDate: "2023-07-01",
     credentialID: "reinforcement-learning-in-finance",
     credentialURL:
@@ -14,8 +13,7 @@ export const CERTIFICATIONS: Certification[] = [
   {
     title: "Digital Product Management",
     issuer: "University of Virginia",
-    issuerLogoURL:
-      "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_100_100/company-logo_100_100/0/1712014926451?e=1779926400&v=beta&t=invytW_gVbtwpUtiAMzZjZly_OGtj65j9rGSd77ZHnI",
+    issuerLogoURL: "/images/linkedin/organizations/university-of-virginia.jpg",
     issueDate: "2021-08-01",
     credentialID: "digital-product-management",
     credentialURL:
@@ -24,8 +22,7 @@ export const CERTIFICATIONS: Certification[] = [
   {
     title: "Machine Learning",
     issuer: "Stanford Online",
-    issuerLogoURL:
-      "https://media.licdn.com/dms/image/v2/D560BAQEd670c2b8VOQ/company-logo_100_100/B56Z2S6TZbGwAY-/0/1776286250926/stanford_online_logo?e=1779926400&v=beta&t=rM85nnpxKbCry5bN6Xy3gU5A2Qyenye7Twfw6lJ5Vt0",
+    issuerLogoURL: "/images/linkedin/organizations/stanford-online.jpg",
     issueDate: "2022-08-01",
     credentialID: "machine-learning",
     credentialURL:
@@ -34,8 +31,7 @@ export const CERTIFICATIONS: Certification[] = [
   {
     title: "Bloomberg Market Concepts",
     issuer: "Bloomberg",
-    issuerLogoURL:
-      "https://media.licdn.com/dms/image/v2/C4D0BAQF0uyE7RGKDGg/company-logo_100_100/company-logo_100_100/0/1631374698859/bloomberg_lp_logo?e=1779926400&v=beta&t=Ot9VmQei6V1rJYbZKBcH9Lmis5mFwyF3vxEmLX0xsfs",
+    issuerLogoURL: "/images/linkedin/organizations/bloomberg.jpg",
     issueDate: "2023-10-01",
     credentialID: "pgmEnNqinW2Yk17w8sgdbQ4r",
     credentialURL:

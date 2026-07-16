@@ -4,8 +4,7 @@ export const EXPERIENCES: Experience[] = [
   {
     id: "rebattery",
     companyName: "ReBattery",
-    companyLogo:
-      "https://media.licdn.com/dms/image/v2/D560BAQE0kQZ8lP-9EA/company-logo_100_100/B56Zzep4IDJgAU-/0/1773262046122/rebatteryplatform_logo?e=1779926400&v=beta&t=o8E4dFLKnudpzQ5vc3ll45Yn2cmPCIZeG3euUW4LYaY",
+    companyLogo: "/images/linkedin/organizations/rebattery.jpg",
     isCurrentEmployer: true,
     positions: [
       {
@@ -25,8 +24,7 @@ export const EXPERIENCES: Experience[] = [
   {
     id: "stealth-ai-startup",
     companyName: "Stealth AI Startup",
-    companyLogo:
-      "https://media.licdn.com/dms/image/v2/D560BAQHPao0B8uCJMA/company-logo_100_100/company-logo_100_100/0/1693216489946?e=1779926400&v=beta&t=AdQYn1N03hrMgC7cUXlmKuYyZ0Iv1JZkaZmqPjAuwK4",
+    companyLogo: "/images/linkedin/organizations/stealth-ai-startup.jpg",
     positions: [
       {
         id: "stealth-founder",
@@ -47,8 +45,7 @@ export const EXPERIENCES: Experience[] = [
   {
     id: "quantera",
     companyName: "Quantera",
-    companyLogo:
-      "https://media.licdn.com/dms/image/v2/D4D0BAQH_kzWspN5hlQ/company-logo_100_100/company-logo_100_100/0/1708797303710?e=1779926400&v=beta&t=fCcSiZiDHa3a7DSgKXgm30lmxGKARTfLnHKOaI9LEXM",
+    companyLogo: "/images/linkedin/organizations/quantera.jpg",
     positions: [
       {
         id: "quantera-quant-analyst",
@@ -74,8 +71,7 @@ export const EXPERIENCES: Experience[] = [
   {
     id: "greenify",
     companyName: "Greenify LLC",
-    companyLogo:
-      "https://media.licdn.com/dms/image/v2/C4D0BAQE52FF4C4N46g/company-logo_100_100/company-logo_100_100/0/1644707813356?e=1779926400&v=beta&t=8GexN0Jr6sby9t4LUB3YtGR1q4DA95WAmFcPaHfpGaI",
+    companyLogo: "/images/linkedin/organizations/greenify.jpg",
     positions: [
       {
         id: "greenify-fullstack-dev",
@@ -96,8 +92,7 @@ export const EXPERIENCES: Experience[] = [
   {
     id: "ecotek",
     companyName: "ECOTEK KS",
-    companyLogo:
-      "https://media.licdn.com/dms/image/v2/C4D0BAQEOqMynwwL3Bw/company-logo_100_100/company-logo_100_100/0/1640218045749?e=1779926400&v=beta&t=cjuwycJJknAfoino_pElHHZF73FTtFR18RrTFMCe6vQ",
+    companyLogo: "/images/linkedin/organizations/ecotek.jpg",
     positions: [
       {
         id: "ecotek-sales-marketing-associate",
