@@ -2,7 +2,7 @@
 
 import { motion, useSpring } from "motion/react";
 import type { FC } from "react";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 
 interface Position {
   x: number;
@@ -90,10 +90,9 @@ export function SmoothCursor({
     restDelta: 0.001,
   },
 }: SmoothCursorProps) {
-  const [isMoving, setIsMoving] = useState(false);
   const lastMousePos = useRef<Position>({ x: 0, y: 0 });
   const velocity = useRef<Position>({ x: 0, y: 0 });
-  const lastUpdateTime = useRef(Date.now());
+  const lastUpdateTime = useRef<number | null>(null);
   const previousAngle = useRef(0);
   const accumulatedRotation = useRef(0);
 
@@ -113,7 +112,10 @@ export function SmoothCursor({
   useEffect(() => {
     const updateVelocity = (currentPos: Position) => {
       const currentTime = Date.now();
-      const deltaTime = currentTime - lastUpdateTime.current;
+      const deltaTime =
+        lastUpdateTime.current === null
+          ? 0
+          : currentTime - lastUpdateTime.current;
 
       if (deltaTime > 0) {
         velocity.current = {
@@ -150,18 +152,15 @@ export function SmoothCursor({
         previousAngle.current = currentAngle;
 
         scale.set(0.95);
-        setIsMoving(true);
-
-        const timeout = setTimeout(() => {
+        if (scaleTimeoutId) clearTimeout(scaleTimeoutId);
+        scaleTimeoutId = setTimeout(() => {
           scale.set(1);
-          setIsMoving(false);
         }, 150);
-
-        return () => clearTimeout(timeout);
       }
     };
 
     let rafId: number;
+    let scaleTimeoutId: ReturnType<typeof setTimeout> | undefined;
     const throttledMouseMove = (e: MouseEvent) => {
       if (rafId) return;
 
@@ -178,6 +177,7 @@ export function SmoothCursor({
       window.removeEventListener("mousemove", throttledMouseMove);
       document.body.style.cursor = "auto";
       if (rafId) cancelAnimationFrame(rafId);
+      if (scaleTimeoutId) clearTimeout(scaleTimeoutId);
     };
   }, [cursorX, cursorY, rotation, scale]);
 
