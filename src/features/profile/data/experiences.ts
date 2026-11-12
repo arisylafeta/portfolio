@@ -11,7 +11,7 @@ export const EXPERIENCES: Experience[] = [
         id: "rebattery-cto",
         title: "Chief Technology Officer",
         employmentPeriod: {
-          start: "08.2025",
+          start: "03.2026",
         },
         employmentType: "Full-time",
         icon: "business",

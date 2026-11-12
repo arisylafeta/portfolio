@@ -5,7 +5,7 @@ export const PROJECTS: Project[] = [
     id: "rebattery",
     title: "ReBattery",
     tagline: "Battery market infrastructure, built for liquidity.",
-    period: { start: "08.2025" },
+    period: { start: "03.2026" },
     link: "https://rebattery.io/",
     skills: ["Energy Markets", "Market Infrastructure", "AI Systems", "Data"],
     description: `A product platform focused on making the battery market more liquid, discoverable, and execution-ready.
