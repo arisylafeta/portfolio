@@ -6,9 +6,9 @@ export const AWARDS: Award[] = [
     logo: "/images/linkedin/organizations/birkbeck.jpg",
     prize: "Master of Science - MS, Quantitative Finance w/ Data Science",
     title: "Birkbeck, University of London",
-    date: "2026-04",
+    date: "2024",
     startDate: "Oct 2023",
-    endDate: "Apr 2026",
+    endDate: "2024",
     grade: "Distinction",
     description: `**Activities and Societies**
 
