@@ -37,7 +37,7 @@ export const PROJECTS: Project[] = [
     id: "reoutfit",
     title: "Reoutfit",
     tagline: "Try on the future of e-commerce styling.",
-    period: { start: "07.2025", end: "10.2025" },
+    period: { start: "07.2025", end: "11.2025" },
     link: "https://www.reoutfit.me/",
     skills: ["E-commerce", "AI Styling", "Personalization", "Retail UX"],
     description: `An AI-assisted e-commerce experience for discovering and trying outfits before purchase.

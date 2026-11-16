@@ -50,13 +50,20 @@ const projectsText = `## Projects
 ${PROJECTS.map((item) => {
   const skills = `\n\nSkills: ${item.skills.join(", ")}`;
   const description = item.description ? `\n\n${item.description.trim()}` : "";
-  return `### ${item.title}\n\nProject URL: ${item.link}${skills}${description}`;
+  const period = `\n\nPeriod: ${item.period.start} - ${item.period.end || "Present"}`;
+  return `### ${item.title}\n\nProject URL: ${item.link}${period}${skills}${description}`;
 }).join("\n\n")}
 `;
 
 const awardsText = `## Awards
 
-${AWARDS.map((item) => `### ${item.prize} | ${item.title}\n\n${item.description}`).join("\n\n")}
+${AWARDS.map((item) => {
+  const period =
+    item.startDate && item.endDate
+      ? `\n\nPeriod: ${item.startDate} - ${item.endDate}`
+      : "";
+  return `### ${item.prize} | ${item.title}${period}\n\n${item.description}`;
+}).join("\n\n")}
 `;
 
 const certificationsText = `## Certifications

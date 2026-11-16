@@ -22,19 +22,18 @@ export const EXPERIENCES: Experience[] = [
     ],
   },
   {
-    id: "stealth-ai-startup",
-    companyName: "Stealth AI Startup",
-    companyLogo: "/images/linkedin/organizations/stealth-ai-startup.jpg",
+    id: "freelance",
+    companyName: "Upwork and direct clients",
     positions: [
       {
-        id: "stealth-founder",
-        title: "Founder",
+        id: "freelance-software-engineer",
+        title: "Freelance Software Engineer",
         employmentPeriod: {
-          start: "09.2023",
-          end: "12.2025",
+          start: "2023",
+          end: "2025",
         },
-        employmentType: "Full-time",
-        icon: "idea",
+        employmentType: "Freelance",
+        icon: "code",
         description: `- This was a concentrated period of building fast, close to clients, and testing the waters across multiple AI startup ideas. I worked directly with operators to understand workflow pain, then translated that into product bets that could be validated in-market, not just in prototypes.
 - Over this era, I built four full platforms end-to-end and pushed each toward real commercial traction: **Salespeak**, **Reoutfit**, **EasyClaw**, and **20Punches**. The focus was always the same: ship something useful quickly, iterate from usage, and keep tightening the path from product to revenue.
 - Beyond product and engineering, I led sales-heavy cycles and customer discovery loops in parallel - demos, outreach, qualification, closing, and feedback capture. It was equal parts structured execution and AI tinkering, and it shaped a durable founder playbook for building things people will actually pay for.`,
