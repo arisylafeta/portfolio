@@ -26,7 +26,7 @@
     {
       "id": "experience",
       "title": "Work Experience",
-      "body": "Co-Founder at Salespeak (2024-present), previously Quantitative Analyst at Quantera and ML Intern at Solaborate."
+      "body": "Co-founder and CTO at ReBattery Ltd (Mar 2026-present); Freelance Software Engineer (2023-2025); previously Quantitative Analyst at Quantera and ML Intern at Solaborate."
     },
     {
       "id": "interests",
@@ -53,10 +53,16 @@
   ],
   "experience": [
     {
-      "period": "Dec 2024 - Present",
-      "role": "Co-Founder",
-      "company": "Salespeak",
-      "location": "London, UK (Remote)"
+      "period": "Mar 2026 - Present",
+      "role": "Co-founder and CTO",
+      "company": "ReBattery Ltd",
+      "location": "London"
+    },
+    {
+      "period": "2023 - 2025",
+      "role": "Freelance Software Engineer",
+      "company": "Upwork and direct clients",
+      "location": "London, UK"
     },
     {
       "period": "Oct 2022 - Sep 2023",
